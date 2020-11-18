@@ -1,0 +1,10 @@
+m=int(input("m="))
+n=int(input("n="))
+p=a=0
+while(p<n):
+    a+=1
+    p=m**a
+if(p==n):
+    print("Afirmativ")
+else:
+    print("Negativ")
